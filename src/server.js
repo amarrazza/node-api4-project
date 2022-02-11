@@ -7,8 +7,10 @@ server.use(express.json());
 server.use('/api', accountRouter)
 
 server.get('/', (req, res) => {
-    res.send(`<h2>heyoo</h2>`);
+    res.send(`<h2>gm</h2>`);
 });
+
+
 
 
 module.exports = server;
